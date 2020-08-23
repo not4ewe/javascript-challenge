@@ -44,10 +44,10 @@ button.on("click", () => {
 	if (response.filterDate.length !== 0) {
 		populate(filterDate);
 	}
-		else if (response.filterDate.length === 0 ){
-			populate(filterDate);
+		//else if (response.filterDate.length === 0 ){
+		//	populate(filterDate);
 	
-		}
+		//}
 		else {
 			tbody.append("tr").append("td").text("No results found!"); 
 		}
